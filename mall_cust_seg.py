@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 import streamlit as st
 
 # Import dataset
-df = pd.read_csv('D:\Streamlit\datasets\Mall_Customers.csv')
+df = pd.read_csv('Mall_Customers.csv')
 
 # Rename important columns
 df.rename(index=str, columns={
